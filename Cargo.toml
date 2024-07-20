@@ -119,6 +119,7 @@ libc = { workspace = true }
 
 [target.'cfg(not(target_arch = "wasm32"))'.dependencies]
 rustyline = { workspace = true }
+nix = { workspace = true }
 
 [dev-dependencies]
 criterion = { version = "0.3.5", features = ["html_reports"] }
